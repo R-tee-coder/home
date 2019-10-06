@@ -1,0 +1,16 @@
+body{
+	background-color: lightgray;
+}
+h1{
+font-size: 15px;
+color: coral;
+}
+h2{
+color: red;
+}
+.big{
+font-size: 60px;
+}
+h1 span{
+color: violet;
+}
