@@ -1,3 +1,53 @@
+html{
+	background: url(../images/background.png) no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
 body{
-	background: url(background.png) no-repeat center center fixed;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+header{
+	width: 100%
+	height:100px;
+	position: absolute;
+	top:6%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.logo {
+	width: 225px;
+	color: #fff;
+	float: left;
+}
+nav {
+	float: left;
+	width: 1000px; 
+}
+nav li {
+	float: left;
+	list-style: none;
+}
+nav li a {
+	text-decoration: none;
+    color: #F2F2F2;
+	padding: 10px 20px;
+	background: linear-gradient(to bottom, #F2D888 0%, #F2D888 100%);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 3px 3px;
+	margin-left: 5px;
+	font-weight: bold;
+}
+svg {
+	cursor: pointer;
+    fill:none;
+    stroke:#F2D888;
+    stroke-width:2;
+}
+section {
+	transform: translate(0%, +100%);
 }
